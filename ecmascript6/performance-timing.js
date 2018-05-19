@@ -1,4 +1,4 @@
-// window.location.reload();
+// google-chrome-developer-tools-console
 
 copy(
     (function () {
