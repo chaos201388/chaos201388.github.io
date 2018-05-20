@@ -1,7 +1,7 @@
 ---
-title: Reference
-date: 2018-05-20 14:30:00 +0800
-tags: index, reference
+title: index
+date: 2018-05-20T14:45:00+0800
+tags: reference
 author: chaos201388
 ---
 
@@ -45,8 +45,6 @@ author: chaos201388
 ### Miscellaneous
 
 1. [Container Networking Interface 入門簡介](https://medium.com/@john.lin/container-networking-interface-%E5%85%A5%E9%96%80%E7%B0%A1%E4%BB%8B-f48cfd818259)
-1. [Passing additional variables from command line to make
-](https://stackoverflow.com/questions/2826029/passing-additional-variables-from-command-line-to-make)
+1. [Passing additional variables from command line to make](https://stackoverflow.com/questions/2826029/passing-additional-variables-from-command-line-to-make)
 1. [What overwrites /etc/resolv.conf on every boot?](https://unix.stackexchange.com/questions/174349/what-overwrites-etc-resolv-conf-on-every-boot)
 1. [10 Useful Sar (Sysstat) Examples for UNIX / Linux Performance Monitoring](https://www.thegeekstuff.com/2011/03/sar-examples/)
-
