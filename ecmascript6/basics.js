@@ -7,6 +7,8 @@ console.log(typeof [0, 1, 1, 2, 3, 5, 8, 13, 21]);
 console.log(typeof {name: 'value'});
 console.log(typeof Symbol());
 console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof NaN);
 
 
 const DEBUG = true;
