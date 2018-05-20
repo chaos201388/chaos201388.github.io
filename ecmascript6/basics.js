@@ -1,5 +1,8 @@
 'use strict';
 
+// Referenc: https://www.youtube.com/watch?v=Jakoi0G8lBg
+
+
 console.log(typeof true);
 console.log(typeof 1.414);
 console.log(typeof 'Cardcaptor Sakura');
