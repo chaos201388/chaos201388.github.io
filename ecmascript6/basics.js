@@ -1,6 +1,6 @@
 'use strict';
 
-// Referenc: https://www.youtube.com/watch?v=Jakoi0G8lBg
+// https://www.youtube.com/watch?v=Jakoi0G8lBg
 
 
 console.log(typeof true);
