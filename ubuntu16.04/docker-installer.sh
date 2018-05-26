@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-sudo apt-get purge -y docker-ce && \
-    sudo rm -rf /var/lib/docker && \
-        sudo rm -f /usr/local/bin/docker-compose
+# sudo apt-get purge -y docker-ce && \
+#     sudo rm -rf /var/lib/docker && \
+#         sudo rm -f /usr/local/bin/docker-compose
 
 
 ## https://docs.docker.com/install/linux/docker-ce/ubuntu/
