@@ -19,17 +19,18 @@ sudo bash gitflow-installer.sh install stable && \
 
 
 echo '' >> ~/.bash_aliases
+
 cat >> ~/.bash_aliases <<APPEND
 # display git branch name in bash prompt
-function git_branch_name {
+git_branch_name() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="\u@\h \w\$(git_branch_name) $ "
+export PS1="\u@\h \w\\\$(git_branch_name) $ "
 APPEND
 
 
-# git config --global user.email "foobar@gmail.com"
 # git config --global user.name "Foo Bar"
+# git config --global user.email "foobar@gmail.com"
 
 git config --global push.default simple
 
