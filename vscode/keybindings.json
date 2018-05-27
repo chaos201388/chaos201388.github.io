@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+pageUp",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus",
+    },
+    {
+        "key": "ctrl+pageDown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus",
+    },
+]
