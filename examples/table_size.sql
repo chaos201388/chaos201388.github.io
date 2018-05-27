@@ -3,7 +3,7 @@
 select
     table_schema,
     table_name,
-    round(((data_length + index_length) / 1024 / 1024), 2) as 'table_size'
+    round(((data_length + index_length) / 1024 / 1024), 2) as table_size
 from
     information_schema.tables
 order by
