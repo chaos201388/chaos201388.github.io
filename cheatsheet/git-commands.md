@@ -29,7 +29,7 @@ git log -p /path/to/file
 git checkout master && git pull
 git checkout develop && git pull
 
-git checkout <feature_branch>
+git checkout <feature_branch_name>
 git flow feature finish
 
 git flow release start 1.0.0
@@ -42,10 +42,8 @@ git push --tags
 
 ## Rebase
 
-將 feature 分支重新接在 develop 分支之後 (可能會發生衝突)
-
 ```
-git checkout <feature_branch>
+git checkout <feature_branch_name>
 git rebase develop
 ```
 
