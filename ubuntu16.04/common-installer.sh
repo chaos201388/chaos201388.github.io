@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 
-## https://linux.die.net/man/1/htop
-## https://linux.die.net/man/1/tree
 ## https://httpd.apache.org/docs/2.4/programs/ab.html
+## https://linux.die.net/man/1/htop
+## https://linux.die.net/man/8/iftop
+## https://linux.die.net/man/1/tree
+## https://linux.die.net/man/1/pv
 
 sudo apt update
 
-sudo apt install -y htop \
+sudo apt install -y \
+    apache2-utils \
+    htop \
+    iftop \
     tree \
-    apache2-utils
+    pv
