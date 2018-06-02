@@ -1,23 +1,11 @@
 # Linux Commands
 
 ```
-ln -sfn <target> <symbolic>
-```
-
-```
-unlink /path/to/symbolic
-```
-
-```
 find . -maxdepth 1 -not -name "." -printf "%f\n"
 ```
 
 ```
 sed -i -e 's/.*searchlines.*/replace/g' filename
-```
-
-```
-for pid in $(ps -ef | awk '/keyword/ {print $2}'); do kill -9 $pid; done
 ```
 
 ```
@@ -28,8 +16,10 @@ EIP=$(curl -s https://httpbin.org/ip | awk '/origin/ {print $2}' | sed 's/"//g')
 ulimit -a
 ```
 
+<!-- load averages -->
+
 ```
-seq 10 | xargs -n 1 echo
+free -m
 ```
 
 ```
@@ -37,16 +27,31 @@ df -hT
 ```
 
 ```
+du -sh * | sort -h
 du -h --max-depth 1 <dirname>
 ```
 
 ```
-ps -ef
+seq 10 | xargs -n 1 echo
 ```
 
+## 文字處理
+
+## Tarball and Compression
+
+### Gzip
+
 ```
-netstat -tulpn
+# pack and compress
+tar zcvf filename.tar.gz dirname
+
+# extract and unpack
+tar zxvf filename.tar.gz
 ```
+
+## SSH
+
+### Port Forwarding
 
 ```
 ssh -Nf -L
@@ -59,31 +64,52 @@ ssh -L 5566:0.0.0.0:22 remote_host
 ssh -L 5566:remote_host:22 jump_host
 ```
 
-## Ubuntu 16.04
+## Miscellaneous
 
-### superuser
+### Superuser on Ubuntu 16.04
 
 ```
 sudo -i
 ```
 
-### services: enabled, running
+### Network Statistics
+
+```
+netstat -tulpn
+```
+
+### Process Status
+
+```
+ps -ef
+```
+
+```
+for pid in $(ps -ef | awk '/keyword/ {print $2}'); do kill -9 $pid; done
+```
+
+### Service List
 
 ```
 systemctl list-unit-files | grep enabled
 systemctl list-units --type=service --state=running
 ```
 
-## Tarball and Compression
-
-### gzip
+### Symbolic Link
 
 ```
-# pack and compress
-tar zcvf filename.tar.gz dirname
-
-# extract and unpack
-tar zxvf filename.tar.gz
+ln -sfn /path/to/target /path/to/symbolic
 ```
 
-### rar
+```
+unlink /path/to/symbolic
+```
+
+### Universally Unique Identifier
+
+```
+uuid=$(uuidgen)
+
+echo ${uuid^^}
+echo ${uuid,,}
+```

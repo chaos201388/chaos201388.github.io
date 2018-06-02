@@ -33,7 +33,7 @@ git checkout <feature_branch_name>
 git flow feature finish
 
 git flow release start 1.0.0
-git flow release finish 1.0.0
+git flow release finish
 
 git push
 git push origin master
