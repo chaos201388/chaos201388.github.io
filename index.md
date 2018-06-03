@@ -44,3 +44,4 @@ editor: chaos201388
 - [What overwrites /etc/resolv.conf on every boot?](https://unix.stackexchange.com/questions/174349/what-overwrites-etc-resolv-conf-on-every-boot)
 - [10 Useful Sar (Sysstat) Examples for UNIX / Linux Performance Monitoring](https://www.thegeekstuff.com/2011/03/sar-examples/)
 - [HTTP/2 幕后原理](https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/index.html)
+- [Hardware – OS & OS- Application interface](http://www.cs.cornell.edu/courses/cs4410/2016su/slides/lecture02.pdf)
