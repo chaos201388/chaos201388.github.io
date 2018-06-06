@@ -1,41 +1,30 @@
 # Linux Commands
 
-```
-find . -maxdepth 1 -not -name "." -printf "%f\n"
-```
+## Uncategory
 
 ```
-sed -i -e 's/.*searchlines.*/replace/g' filename
-```
-
-```
-EIP=$(curl -s https://httpbin.org/ip | awk '/origin/ {print $2}' | sed 's/"//g')
+seq 10 | xargs -n 1 echo
 ```
 
 ```
 ulimit -a
 ```
 
-<!-- load averages -->
-
 ```
-free -m
+cat /proc/loadavg
 ```
 
-```
-df -hT
-```
+## Search
 
 ```
-du -sh * | sort -h
-du -h --max-depth 1 <dirname>
+find . -maxdepth 1 -not -name "." -printf "%f\n"
 ```
 
-```
-seq 10 | xargs -n 1 echo
-```
+## Edit
 
-## 文字處理
+```
+sed -i -e 's/.*searchlines.*/replace/g' filename
+```
 
 ## Tarball and Compression
 
@@ -47,6 +36,23 @@ tar zcvf filename.tar.gz dirname
 
 # extract and unpack
 tar zxvf filename.tar.gz
+```
+
+## Disk
+
+```
+df -hT
+```
+
+```
+du -sh * | sort -h
+du -h --max-depth 1 <dirname>
+```
+
+## Memory
+
+```
+free -m
 ```
 
 ## SSH
