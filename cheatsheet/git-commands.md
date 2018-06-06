@@ -3,18 +3,17 @@
 ## Branch
 
 ```
-# 列出分支
+# 列出本地端的所有分支
 git branch -a
 
-# 移除本地端分支
+# 移除本地端的分支
 git branch -d <branch_name>
 
-# 移除遠端分支
+# 移除遠端的分支
 git push <remote_name> :<branch_name>
 
-# 同步本地端關於遠端分支的資訊列表（？）
-git remote prune <remote_name> --dry-run
-git remote prune <remote_name>
+# 更新本地端的遠端分支清單
+git remote update <remote_name> --prune
 ```
 
 ## Log
