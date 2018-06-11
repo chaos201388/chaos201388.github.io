@@ -1,7 +1,7 @@
 # Docker Commands
 
 ```
-sudo usermod -aG docker $USER
+sudo usermod -aG docker ${USER}
 exec bash -i
 id -nG
 ```
