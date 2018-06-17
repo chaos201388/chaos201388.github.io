@@ -2,12 +2,13 @@
 
 ## Film
 
-- The Matrix
+- Spirited Away (2001)
+- The Matrix (1999)
 
 ## Manga
 
-- Cardcaptor Sakura
-- Fullmetal Alchemist
+- Cardcaptor Sakura (1998 - 2000, 2018)
+- Fullmetal Alchemist (2009 - 2010)
 - Kekkaishi
 
 ## Music
@@ -23,4 +24,5 @@
 
 ## Television Programme
 
-- Doctor Who
+- Doctor Who (2005 - 2017)
+- The Flash (2014 - 2015)
