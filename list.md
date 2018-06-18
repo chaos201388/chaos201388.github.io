@@ -11,6 +11,14 @@
 - Spirited Away (2001)
 - The Matrix (1999)
 
+## Games
+
+- Cities: Skylines
+- Path of Exile
+- Romance of the Three Kingdoms VII
+- The Elder Scrolls V: Skyrim
+- Xuan-Yuan Sword 4: The Black Dragon Dances as the Storm Rages
+
 ## Manga
 
 - Cardcaptor Sakura (1998 - 2000, 2018)
