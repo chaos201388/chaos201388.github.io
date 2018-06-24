@@ -10,7 +10,9 @@
 - Prometheus (2012)
 - Ratatouille (2007)
 - Spirited Away (2001)
+- Terminator 2: Judgment Day (1991)
 - The Matrix (1999)
+- The Terminator (1984)
 
 ## Games
 
