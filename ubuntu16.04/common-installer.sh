@@ -5,6 +5,7 @@
 ## https://linux.die.net/man/8/iftop
 ## https://linux.die.net/man/1/tree
 ## https://linux.die.net/man/1/pv
+## https://linux.die.net/man/8/gparted
 
 sudo apt update
 
@@ -13,4 +14,5 @@ sudo apt install -y \
     htop \
     iftop \
     tree \
-    pv
+    pv \
+    gparted
