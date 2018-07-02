@@ -7,10 +7,6 @@ editor: chaos201388
 
 # Reference
 
-### General Data Protection Regulation
-
-1. [國家發展委員會-歐盟GDPR簡介](https://www.ndc.gov.tw/Content_List.aspx?n=49C4A38DD9249E3E)
-
 ### Backend Roadmap
 
 1. https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9
