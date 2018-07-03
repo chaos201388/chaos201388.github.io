@@ -119,3 +119,9 @@ uuid=$(uuidgen)
 echo ${uuid^^}
 echo ${uuid,,}
 ```
+
+### fstab - swap setting
+
+```
+UUID=b08f1748-3419-4427-adac-820aedab333a none            swap    sw              0       0
+```
