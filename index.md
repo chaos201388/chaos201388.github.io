@@ -20,9 +20,11 @@ editor: chaos201388
 
 1. https://danielkummer.github.io/git-flow-cheatsheet/
 
-### PHP Security
+### PHP
 
 1. https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software
+1. https://www.slideshare.net/asika32764/php-day-35-php
+1. https://refactoring.guru/design-patterns
 
 ### RESTful API
 
