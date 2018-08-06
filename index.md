@@ -24,13 +24,20 @@ editor: chaos201388
 
 1. https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software
 1. https://www.slideshare.net/asika32764/php-day-35-php
-1. https://refactoring.guru/design-patterns
 
 ### RESTful API
 
 1. https://www.oreilly.com/learning/how-to-design-a-restful-api-architecture-from-a-human-language-spec
 1. https://www.oreilly.com/ideas/how-a-restful-api-server-reacts-to-requests
 1. https://www.oreilly.com/ideas/how-a-restful-api-represents-resources
+
+### Relational Database
+
+1. https://use-the-index-luke.com/sql/table-of-contents
+
+### Design Patterns and OOP
+
+1. https://refactoring.guru/design-patterns
 
 ### SSH Tunneling
 
