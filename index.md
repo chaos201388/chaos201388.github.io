@@ -22,8 +22,9 @@ editor: chaos201388
 
 ### PHP
 
-1. https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software
-1. https://www.slideshare.net/asika32764/php-day-35-php
+- https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software
+- https://www.slideshare.net/asika32764/php-day-35-php
+- https://www.php-fig.org/psr/
 
 ### RESTful API
 
@@ -45,6 +46,10 @@ editor: chaos201388
 1. https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-tunnel-options/
 1. https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/
 1. https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-ssh-config/
+
+### Payment Request API
+
+### Reactive Extensions
 
 ### Miscellaneous
 
