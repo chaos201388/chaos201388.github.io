@@ -49,8 +49,18 @@
 
 ### Functional Programming
 
+### Troubleshooting
+
+- https://stackoverflow.com/questions/33265812/best-http-authorization-header-type-for-jwt
+- https://unix.stackexchange.com/questions/174349/what-overwrites-etc-resolv-conf-on-every-boot
+- https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts
+
 ### Miscellaneous
 
 - [Web 框架的架构模式探讨](https://mp.weixin.qq.com/s/_JFszCYrLnB2fCHl-CHTTg)
 - [Hardware – OS & OS- Application interface](http://www.cs.cornell.edu/courses/cs4410/2016su/slides/lecture02.pdf)
-- [What overwrites /etc/resolv.conf on every boot?](https://unix.stackexchange.com/questions/174349/what-overwrites-etc-resolv-conf-on-every-boot)
+- [Models for hierarchical data](https://www.slideshare.net/billkarwin/models-for-hierarchical-data)
+
+- [Implementing the Clean Architecture](https://www.entropywins.wtf/blog/2016/11/24/implementing-the-clean-architecture/)
+- [Why you should learn the Rust programming language](https://www.ibm.com/developerworks/opensource/library/os-developers-know-rust/)
+- [Tokio internals: Understanding Rust's asynchronous I/O framework from the bottom up](https://cafbit.com/post/tokio_internals/)
