@@ -49,6 +49,10 @@
 
 ### Functional Programming
 
+### Financial Information eXchange (FIX) Protocol
+
+- https://www.onixs.biz/fix-dictionary.html
+
 ### Troubleshooting
 
 - https://stackoverflow.com/questions/33265812/best-http-authorization-header-type-for-jwt
