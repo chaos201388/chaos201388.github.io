@@ -41,6 +41,6 @@
 
 ## Television Programme
 
-- Breaking Bad (2008)
+- Breaking Bad (2008 - 2013)
 - Doctor Who (2005 - 2017)
 - The Flash (2014 - 2015)
