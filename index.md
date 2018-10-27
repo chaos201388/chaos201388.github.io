@@ -1,5 +1,9 @@
 # Reference
 
+### Internet
+
+- [Beej's Guide to Network Programming: Using Internet Sockets]https://beej.us/guide/bgnet/
+
 ### Backend Roadmap
 
 1. https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9
