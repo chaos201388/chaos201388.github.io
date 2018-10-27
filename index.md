@@ -2,7 +2,7 @@
 
 ### Internet
 
-- [Beej's Guide to Network Programming: Using Internet Sockets]https://beej.us/guide/bgnet/
+- [Beej's Guide to Network Programming: Using Internet Sockets](https://beej.us/guide/bgnet/)
 
 ### Backend Roadmap
 
