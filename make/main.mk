@@ -1,11 +1,16 @@
-WORDS := 'helle world'
+words :=
 
-.PHONY : all something nothing
+ifeq ($(strip $(words)),)
+  words := 'hello world'
+endif
+
+
+.PHONY: all something nothing
 
 all: something nothing
 
 something:
-	@echo $(WORDS)
+	@echo $(words)
 
 nothing:
 	@:

@@ -1,1 +1,1 @@
-include main.mk
+include make/main.mk
