@@ -14,8 +14,8 @@ sudo apt update -y
 sudo apt list --installed | grep php
 
 ### 3. Remove PHP packages
-sudo apt purge php* -y
-sudo apt autoremove -y
+# sudo apt purge php* -y
+# sudo apt autoremove -y
 
 ### 4. Install PHP packages
 # sudo apt install software-properties-common -y
@@ -46,7 +46,7 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === '${HASH}') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 
 ### 3. Install composer
-sudo php composer-setup.php --install-dir=${BINDIR} --filename=composer
+sudo php composer-setup.php --install-dir=${BINDIR} --filename=composer --version=1.9.1
 
 ### 4. Remove composer installer
 php -r "unlink('composer-setup.php');"
