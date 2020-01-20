@@ -1,4 +1,4 @@
-#!/usr/local/bin/env bash
+#!/usr/bin/env bash
 
 ### References:
 ### @see https://www.fosslinux.com/6296/how-to-install-svn-server-on-ubuntu-18-04-lts.htm
