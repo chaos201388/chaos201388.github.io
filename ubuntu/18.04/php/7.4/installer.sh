@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########
-### PHP ###
-###########
+###############
+### PHP 7.x ###
+###############
 
 ### 0. Add repository to source list
 sudo add-apt-repository ppa:ondrej/php -y
@@ -16,10 +16,11 @@ sudo apt list --installed | grep php
 ### 3. Remove PHP packages
 # sudo apt purge php* -y
 # sudo apt autoremove -y
+# sudo rm -rf /etc/php/7.4
 
 ### 4. Install PHP packages
 # sudo apt install software-properties-common -y
-sudo apt install php7.4-cli php7.4-common php7.4-curl php7.4-bcmath php7.4-json php7.4-mbstring php7.4-mysql php7.4-xml -y
+sudo apt install php7.4-fpm php7.4-common php7.4-curl php7.4-bcmath php7.4-json php7.4-mbstring php7.4-mysql php7.4-xml -y
 
 ### 5. Check PHP version and modules
 # php -v
