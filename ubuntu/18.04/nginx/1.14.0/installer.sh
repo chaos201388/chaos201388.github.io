@@ -13,3 +13,6 @@ sudo apt install nginx -y
 
 # sudo ufw status verbose
 # sudo ufw allow 'Nginx HTTP'
+
+# sudo apt purge nginx*
+# sudo apt autoremove
