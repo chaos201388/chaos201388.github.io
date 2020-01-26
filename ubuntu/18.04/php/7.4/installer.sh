@@ -29,6 +29,9 @@ sudo apt install php7.4-fpm php7.4-common php7.4-curl php7.4-bcmath php7.4-json 
 # php -m | grep token
 # php -m | grep pdo
 
+### 6. Check The PHP 7.4 FastCGI Process Manager
+# sudo systemctl status php7.4-fpm.service
+
 ################
 ### Composer ###
 ################
