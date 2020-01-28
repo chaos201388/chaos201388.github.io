@@ -20,16 +20,25 @@ sudo apt list --installed | grep php
 
 ### 4. Install PHP packages
 # sudo apt install software-properties-common -y
-sudo apt install php7.4-fpm php7.4-common php7.4-curl php7.4-bcmath php7.4-json php7.4-mbstring php7.4-mysql php7.4-xml -y
+sudo apt install \
+    php7.4-fpm \
+    php7.4-common \
+    php7.4-curl \
+    php7.4-bcmath \
+    php7.4-json \
+    php7.4-mbstring \
+    php7.4-mysql \
+    php7.4-xml \
+    php-redis \
+    -y
 
-### 5. Check PHP version and modules
+### 5. Check PHP version
 # php -v
-# php -m | grep ctype
-# php -m | grep ssl
-# php -m | grep token
-# php -m | grep pdo
 
-### 6. Check The PHP 7.4 FastCGI Process Manager
+### 6. Check PHP modules
+# php -m | egrep -w 'pdo_mysql|curl|bcmath|dom|xml|mbstring|json|redis'
+
+### 7. Check The PHP 7.4 FastCGI Process Manager
 # sudo systemctl status php7.4-fpm.service
 
 ################
