@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Class ISBN13
+ *
+ * References:
+ * 1. https://isbn-information.com/check-digit-for-the-13-digit-isbn.html
+ */
 class ISBN13
 {
     private $isbn13;
