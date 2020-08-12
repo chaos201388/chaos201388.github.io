@@ -15,7 +15,7 @@ class ISBN13
         $this->isbn13 = $isbn13;
     }
 
-    public function validateISBN13()
+    public function isValidated(): boolean
     {
         if (empty($this->isbn13)) {
             return false;
