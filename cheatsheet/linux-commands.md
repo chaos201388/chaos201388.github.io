@@ -38,6 +38,22 @@ tar zcvf filename.tar.gz dirname
 tar zxvf filename.tar.gz
 ```
 
+## Tarball & GnuPG
+
+### #1
+
+```bash
+echo RELOADAGENT | gpg-connect-agent
+tar -cvzf - directory | gpg -c > directory.tar.gz.gpg
+```
+
+### #2
+
+```bash
+echo RELOADAGENT | gpg-connect-agent
+gpg -d directory.tar.gz.gpg | tar -xvzf -
+```
+
 ## Disk
 
 ```
