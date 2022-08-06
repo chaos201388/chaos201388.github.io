@@ -1,0 +1,61 @@
+{
+    "window.zoomLevel": 0,
+
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.activityBar.visible": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorCustomizations":
+    {
+        "terminal.background": "#000000"
+    },
+
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "copyPaste",
+
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true,
+    },
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    "markdown.preview.breaks": true,
+
+    "diffEditor.originalEditable": true,
+
+    "sftp.printDebugLog": false,
+
+    "TodoParser": {
+        "markers": [["FIXME"]],
+        "autoDefaultMarkers": true
+    },
+
+    "php.suggest.basic": false,
+
+    "php.validate.executablePath": "/usr/bin/php",
+    "php.validate.run": "onType",
+
+    "php-docblocker.useShortNames": true,
+
+    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.config": ".php_cs.dist",
+    "php-cs-fixer.autoFixByBracket": true,
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "php-cs-fixer.formatHtml": false,
+    "php-cs-fixer.documentFormattingProvider": true,
+    "php-cs-fixer.allowRisky": false,
+}

@@ -1,0 +1,11 @@
+CoenraadS.bracket-pair-colorizer
+PKief.material-icon-theme
+bierner.markdown-preview-github-styles
+felixfbecker.php-debug
+felixfbecker.php-intellisense
+junstyle.php-cs-fixer
+liximomo.sftp
+minhthai.vscode-todo-parser
+neilbrayfield.php-docblocker
+patrys.vscode-code-outline
+techer.open-in-browser

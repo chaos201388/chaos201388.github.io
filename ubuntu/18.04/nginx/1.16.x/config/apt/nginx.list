@@ -1,0 +1,5 @@
+### nginx stable
+deb [arch=amd64] http://nginx.org/packages/ubuntu/ bionic nginx
+
+### nginx mainline
+# deb [arch=amd64] http://nginx.org/packages/mainline/ubuntu/ bionic nginx
